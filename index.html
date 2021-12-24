@@ -1,0 +1,181 @@
+<style>
+    .boxy {
+        position: absolute;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 14px;
+        opacity: 0.4;
+        color: white;
+        right: 6px;
+        top: 4px;
+    }
+
+    .bg-grape:hover {
+        background-color: #1B1B1D;
+        color: #7C4DFF;
+        border: solid 1px #7C4DFF;
+        width: 95%;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .bg-grape {
+        color: #7C4DFF;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .bg-mango:hover {
+        background-color: #1B1B1D;
+        color: #ff9f43;
+        border: solid 1px #ff9f43;
+        width: 95%;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .bg-mango {
+        color: #ff9f43;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .bg-orange:hover {
+        background-color: #1B1B1D;
+        color: #ff793f;
+        border: solid 1px #ff793f;
+        width: 95%;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .bg-orange {
+        color: #ff793f;
+        width: 95%;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    #pg {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.25;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+</style>
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://boxy.design/js/jquery.js"></script>
+<script src="https://boxy.design/js/partis.js"></script>
+<link rel="stylesheet" href="https://boxy.design/css/animate.css">
+<script src="https://boxy.design/js/bootstrap.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<title>
+    F A N T A . C L U B
+</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta name="robots" content="index, follow" />
+<meta name="mediapartners" content="index, follow" />
+<meta http-equiv="content-language" content="en-us">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+<meta name="description" content="F A N T A . C L U B | Offering CS:GO Flavored Drinks - Sip Fanta. Become Gooder'">
+<script>
+    $(document).ready(function() {
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
+        var apnd = '<div class="boxy" style="display:none;">soda maker - <a style=color:#e74c3c;><b>serge</b></a><br>site made by - <a style="color:#FFC312;" href="https://discord.gg/QdFNRAa">Boxy</a><br>moderator - <a style="color:#9b59b6"><b>lizerd</b></a><br>payments/mod - <a href="https://discord.gg/UcNhk6C" style=color:#02fc7b;><b>asx</b></a></div>';
+        $('#body').append(apnd);
+        $('.boxy').slideDown(2000).fadeIn(4000);
+
+    });
+</script>
+<div id="pg"></div>
+
+<body id="body" name="body" style="background-color: #1B1B1D;">
+    <div class="container-fluid center" style="font-family: 'Inconsolata', monospace; width:100%; height:100%; color:#bdc3c7;">
+        <center>
+            <div class="soda animated pulse">
+                <h1>F A N T A' C L U B </h1>
+            </div>
+            <a style="text-decoration: none; color: #bdc3c7; background-color:#5f27cd; width:100%;" href="https://discord.gg/CqTnkeg">&nbsp;Discord&nbsp;</a>&nbsp;&nbsp;&nbsp;
+            <a style="text-decoration: none; color: black; background-color:#bdc3c7; width:100%;">&nbsp;<span>373665</span> drinks' served&nbsp;</a><br><br>
+            <div class="row" id="select" name="select" style="width:100%; display:none; box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.27);">
+                <div class="col-12 bg-orange" id="orange" name="orange" style="background-color:#1b1b1d;">
+                    <br><br>
+                    <div>
+                        <h2> O R A N G E </h2>
+                        Private - 10 online<br><br><br></div>
+                </div>
+                <div class="col-12 bg-mango" style="background-color: #1B1B1D;" id="mango" name="mango" disabled>
+                    <br><br>
+                    <h2> M A N G O </h2>
+                    Application - 13 online<br><br><br>
+                </div>
+                <div class="col-12 bg-grape" style="background-color: #1B1B1D;" id="grape" name="gtape" disabled>
+                    <br><br>
+                    <h2> G R A P E </h2>
+                    Private<br><br><br>
+                </div>
+            </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $('#pg').particleground({
+            dotColor: '#f7f1e3',
+            lineColor: '#f7f1e3',
+            density: "400000"
+        });
+        $('#select').delay(1000).show(750);
+    });
+
+    $(function() {
+        $("#orange").on("click", function() {
+            window.location = "https://orange.fanta.club";
+        });
+    })
+    $(function() {
+        $("#mango").on("click", function() {
+            window.location = "https://mango.fanta.club";
+        });
+    })
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128981020-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128981020-1');
+</script>
